@@ -235,7 +235,7 @@ h6 {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1px; 
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
@@ -321,7 +321,7 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500; 
   text-transform: none;
   color: #065e77;
 }
