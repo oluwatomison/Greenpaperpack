@@ -1,5 +1,7 @@
 import React from 'react'
-
+import test1 from '../assests/img/testimonial-1.jpg'
+import test2 from '../assests/img/testimonial-2.jpg'
+import test3 from '../assests/img/testimonial-3.jpg'
 class Clients extends React.Component{
     render(){
       return(
@@ -14,17 +16,8 @@ class Clients extends React.Component{
                 <div className="col-lg-8">
                   <div className="owl-carousel testimonials-carousel wow fadeInUp">
   
-                    <div className="testimonials-item">
-                      <img src="img/test-1.jpg" className="testimonial-img" alt="iosfmg"/>
-                        <h3> anfdm</h3>
-                        <h4>ceo &amp; Founder</h4>
-                        <p>
-                          narfnsnmfgn
-                        </p>
-                    </div>
-  
                   <div className="testimonial-item">
-                   <img src="img/testimonial-2.jpg" className="testimonial-img" alt=""/>
+                   <img src={test1} className="testimonial-img" alt=""/>
                       <h3>Sara Wilsson</h3>
                          <h4>Designer</h4>
                     <p>
@@ -33,7 +26,7 @@ class Clients extends React.Component{
                       </div>
   
                       <div className="testimonial-item">
-                        <img src="img/testimonial-3.jpg" className="testimonial-img" alt=""/>
+                        <img src={test2}className="testimonial-img" alt=""/>
                           <h3>Jena Karlis</h3>
                             <h4>Store Owner</h4>
                   <p>
@@ -42,7 +35,7 @@ class Clients extends React.Component{
                     </div>
   
                   <div class="testimonial-item">
-                      <img src="img/testimonial-4.jpg" class="testimonial-img" alt=""/>
+                      <img src={test3} class="testimonial-img" alt=""/>
                           <h3>Matt Brandon</h3>
                             <h4>Freelancer</h4>
                               <p>

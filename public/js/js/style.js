@@ -212,7 +212,7 @@ export default StyleSheet.create({
     'width': [{ 'unit': '%H', 'value': 1 }],
     'height': [{ 'unit': 'vh', 'value': 100 }],
     'position': 'relative',
-    'background': '#f5f8fd url("..//img/intro-bg.jpg") center top no-repeat',
+    'background': '#f5f8fd url("../img/intro-bg.jpg") center top no-repeat',
     'backgroundSize': 'cover',
     '<w767': {
       'height': [{ 'unit': 'string', 'value': 'auto' }],

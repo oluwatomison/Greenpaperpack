@@ -1,5 +1,8 @@
 import React from 'react'
-
+import team1 from '../assests/img/team-1.jpg'
+import team2 from '../assests/img/team-2.jpg'
+import team3 from '../assests/img/team-3.jpg'
+import team4 from '../assests/img/team-4.jpg'
 class Team extends React.Component{
     render(){
       return(
@@ -14,7 +17,7 @@ class Team extends React.Component{
                 <div className="row">
                   <div className="col-lg-3 col-md-6 wow fadeInUp">
                     <div className="member">
-                      <img src="img/team-1.jpg" className="img-fluid" alt="jjj"/>
+                      <img src={team1}className="img-fluid" alt="jjj"/>
                       <div className="member-info">
                         <div className="member-info-content">
                         <h4>David Azemoh</h4>
@@ -32,7 +35,7 @@ class Team extends React.Component{
   
                   <div className="col-lg-3 col-md-6 wow fadeInUp">
                     <div className="member">
-                      <img src="img/team-1.jpg" className="img-fluid" alt="jjj"/>
+                      <img src={team2} className="img-fluid" alt="jjj"/>
                       <div className="member-info">
                         <div className="member-info-content">
                         <h4>David Azemoh</h4>
@@ -50,7 +53,7 @@ class Team extends React.Component{
   
                   <div className="col-lg-3 col-md-6 wow fadeInUp">
                     <div className="member">
-                      <img src="img/team-1.jpg" className="img-fluid" alt="jjj"/>
+                      <img src={team3} className="img-fluid" alt="jjj"/>
                       <div className="member-info">
                         <div className="member-info-content">
                         <h4>David Azemoh</h4>
@@ -68,7 +71,7 @@ class Team extends React.Component{
   
                   <div className="col-lg-3 col-md-6 wow fadeInUp">
                     <div className="member">
-                      <img src="img/team-1.jpg" className="img-fluid" alt="jjj"/>
+                      <img src= {team4}className="img-fluid" alt="jjj"/>
                       <div className="member-info">
                         <div className="member-info-content">
                         <h4>David Azemoh</h4>

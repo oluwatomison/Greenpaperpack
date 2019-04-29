@@ -10,7 +10,7 @@ import Action from './components/Action'
 import Features from './components/Features'
 import Clients from './components/Clients'
 import Team from './components/Team'
-import Sponsors from './components/Team'
+import Sponsors from './components/Sponsors'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 function App() {

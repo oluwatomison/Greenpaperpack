@@ -1,4 +1,6 @@
 import React from 'react'
+import feature from '../assests/img/features-1.svg'
+import features from '../assests/img/features-2.svg'
 class Features extends React.Component{
     render(){
       return(
@@ -9,7 +11,7 @@ class Features extends React.Component{
           
           <div className="row feature-item">
             <div className="col-lg-6 wow fadeInUp">
-             <img src="./img/features-1.svg" class="img-fluid" alt="jnjdfjd"/> 
+             <img src={feature} class="img-fluid" alt="jnjdfjd"/> 
             </div>
             <div  className="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
               <h4>nuejfnjnnjnafdnanfdn</h4>
@@ -20,7 +22,7 @@ class Features extends React.Component{
   
             <div className="row feature-item mt-5 pt-5">
               <div className="col-lg-6 wow fadeInUp order-1 order-lg-2">
-                <img src="./img/features-2.svg" className="img-fluid" alt="jadfj"/>
+                <img src={features} className="img-fluid" alt="jadfj"/>
               </div>
                   <div className="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
                     <h4> wzjdnfnajfndnmmajdfiamifjidml</h4>

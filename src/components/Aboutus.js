@@ -1,5 +1,5 @@
 import React from 'react'
-
+import snfjn from '../assests/img/about-imgg.jpg'
 class Aboutus extends React.Component{
     render(){
       return(
@@ -9,7 +9,7 @@ class Aboutus extends React.Component{
               <div className="row">
                 <div className="col-lg-5 col-md-6">
                   <div className="about-img">
-                    <img src="./img/about-img.jpg" alt="hnahf"></img>
+                    <img src={snfjn} alt="hnahf"></img>
                   </div>
                   </div>
   

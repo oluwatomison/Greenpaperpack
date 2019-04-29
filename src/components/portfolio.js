@@ -1,4 +1,13 @@
 import React from 'react'
+import app1 from '../assests/img/portfolio/app1.jpg'
+import app2 from '../assests/img/portfolio/app2.jpg'
+import app3 from '../assests/img/portfolio/app3.jpg'
+import card1 from '../assests/img/portfolio/card1.jpg'
+import card2 from '../assests/img/portfolio/card2.jpg'
+import card3 from '../assests/img/portfolio/card3.jpg'
+import web1 from '../assests/img/portfolio/web1.jpg'
+import web2 from '../assests/img/portfolio/web2.jpg'
+import web3 from '../assests/img/portfolio/web3.jpg'
 
 class Portfoilo extends  React.Component{
     render(){
@@ -24,7 +33,7 @@ class Portfoilo extends  React.Component{
     <div className="row portfolio-container">
         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-                 <img src="img/portfolio/app1.jpg" class="img-fluid" alt=""/>
+                 <img src={app1} class="img-fluid" alt=""/>
                       <div className="portfolio-info">
                             <h4><a href="#">App 1</a></h4>
                                 <p>Web</p>
@@ -37,7 +46,7 @@ class Portfoilo extends  React.Component{
                              </div>
      <div className = "col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
         <div className="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt=""/>
+              <img src={web3} class="img-fluid" alt=""/>
                 <div className="portfolio-info">
                     <h4><a href="#">Web 3</a></h4>
                      <p>web</p>
@@ -51,7 +60,7 @@ class Portfoilo extends  React.Component{
 
              <div className="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                   <div className="portfolio-wrap">
-                       <img src="img/portfolio/app2.jpg" className="img-fluid" alt=""/>
+                       <img src={app2} className="img-fluid" alt=""/>
                          <div className="portfolio-info">
                              <h4><a href="#">App 2</a></h4>
                                <p>App</p>
@@ -65,7 +74,7 @@ class Portfoilo extends  React.Component{
 
              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div className="portfolio-wrap">
-                        <img src="img/portfolio/card2.jpg" className="img-fluid" alt=""/>
+                        <img src={card2} className="img-fluid" alt=""/>
                             <div className="portfolio-info">
                                 <h4><a href="#">Card 2</a></h4>
                                      <p>Card</p>
@@ -80,7 +89,7 @@ class Portfoilo extends  React.Component{
                                                     
              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                  <div className="portfolio-wrap">
-                      <img src="img/portfolio/web2.jpg" className="img-fluid" alt=""/>
+                      <img src={web2} className="img-fluid" alt=""/>
                              <div className="portfolio-info">
                                   <h4><a href="#">Web 2</a></h4>
                                          <p>web</p>
@@ -94,7 +103,7 @@ class Portfoilo extends  React.Component{
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                    <div className="portfolio-wrap">
-                         <img src="img/portfolio/app3.jpg" className="img-fluid" alt=""/>
+                         <img src={app3} className="img-fluid" alt=""/>
                                <div className="portfolio-info">
                                     <h4><a href="#">App 3</a></h4>
                                         <p>App</p>
@@ -108,7 +117,7 @@ class Portfoilo extends  React.Component{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div className="portfolio-wrap">
-                  <img src="img/portfolio/card1.jpg" className="img-fluid" alt=""/>
+                  <img src={card1} className="img-fluid" alt=""/>
                     <div className="portfolio-info">
                          <h4><a href="#">Card 1</a></h4>
                              <p>Card</p>
@@ -122,7 +131,7 @@ class Portfoilo extends  React.Component{
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
             <div className="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" className="img-fluid" alt=""/>
+              <img src={card3} className="img-fluid" alt=""/>
               <div className="portfolio-info">
                 <h4><a href="#">Card 3</a></h4>
                 <p>Card</p>
@@ -136,7 +145,7 @@ class Portfoilo extends  React.Component{
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
             <div className="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" className="img-fluid" alt=""/>
+              <img src={web1} className="img-fluid" alt=""/>
               <div className="portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
                 <p>Web</p>

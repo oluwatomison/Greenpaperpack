@@ -1,5 +1,12 @@
 import React from 'react'
-
+import client1 from '../assests/img/clients/client-1.png'
+import client2 from '../assests/img/clients/client-2.png'
+import client3 from '../assests/img/clients//client-3.png'
+import client4 from '../assests/img/clients/client-4.png'
+import client5 from '../assests/img/clients/client-5.png'
+import client6 from '../assests/img/clients/client-6.png'
+import client7 from '../assests/img/clients/client-7.png'
+import client8 from '../assests/img/clients/client-8.png'
 class Sponsors extends React.Component{
     render(){
       return(
@@ -11,15 +18,15 @@ class Sponsors extends React.Component{
               </header>
   
               <div className="owl-carousel clients-carousel">
-              <img src="/img/clients/client-1.png" alt="md"/>
-              <img src="img/clients/client-2.png" alt="mdof"/>
-             <img src="img/clients/client-3.png" alt="dmf"/>
-             <img src="img/clients/client-4.png" alt="md"/>
-              <img src="img/clients/client-5.png" alt=",ld"/>
-             <img src="img/clients/client-6.png" alt="llf"/>
-             <img src="img/clients/client-7.png" alt="lf"/>
-             <img src="img/clients/client-8.png" alt="f"/>
-              </div>
+              <img src={client1} alt="md"/>
+              <img src={client2} alt="mdof"/>
+             <img src={client3} alt="dmf"/>
+             <img src={client4} alt="md"/>
+              <img src={client5} alt=",ld"/>
+             <img src={client6} alt="llf"/>
+             <img src={client7} alt="lf"/>
+             <img src={client8} alt="f"/>
+            </div>
             </div>
           </section>
         </main>

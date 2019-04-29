@@ -5,7 +5,7 @@ class Faq extends React.Component{
       return(
         <main id="main">
          <section id="faq">
-         <div className="container">
+            <div className="container">
            <header className="section-header">
              <h3>Frequently Asked Questions</h3>
                <p> Ask Us Anything, we are going to Answer</p>

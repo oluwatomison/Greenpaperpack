@@ -5,6 +5,7 @@ class Header extends React.Component{
       return(
         <header id="header">
           <div id="topbar">
+          
             <div className="container">
              <div className="social-links">
              <a href="app.pluralsight.com" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -14,21 +15,24 @@ class Header extends React.Component{
             </div>
           </div>
         </div>
-  
+        
         <div className="container">
+        
           <div className="logo float-left">
             <h1 className="text-light"><a href="#info" className="scrollto"><span>Greenpaperbag</span></a></h1>
           </div>
+      {/* <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars"></i></button> */} 
           <nav className="main-nav float-right d-none d-lg-block">
+        
             <ul>
-            <li class="active"><a href="#intro">Home</a></li>
+            <li className="active"><a href="#intro">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#team">Team</a></li>
             <li class="drop-down"><a href="app.pluralsight.com">Drop Down</a>
               <ul>
               <li><a href="app.pluralsight.com">Drop Down 1</a></li>
-                <li class="drop-down"><a href="app.pluralsight.com">Drop Down 2</a>
+                <li className="drop-down"><a href="app.pluralsight.com">Drop Down 2</a>
                 <ul>
                 <li><a href="app.pluralsight.com">Deep Drop Down 1</a></li>
                     <li><a href="app.pluralsight.com">Deep Drop Down 2</a></li>
@@ -46,10 +50,12 @@ class Header extends React.Component{
             </li>
             <li><a href="#footer">Contact Us</a></li>
             </ul>
+      
           </nav>
+          
         </div>
-  
         </header>
+        
       )
     }
   }

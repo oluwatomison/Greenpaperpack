@@ -1,4 +1,14 @@
 import React from 'react'
+import black from '../assests/img/background-bags-black-346748.jpg'
+const diamond={
+  color:"#f058dc"
+}
+const fix={
+  color:"#ffb774"
+}
+const lang={
+  color:"#589af1"
+}
 class WhyUs extends React.Component{
     render(){
       return(
@@ -13,7 +23,7 @@ class WhyUs extends React.Component{
               <div className="row">
                 <div className="col-lg-6">
                   <div className="why-us-img">
-                  <img src="./img/why-us.jpg" alt="coming up" class="img-fluid"/>
+                  <img src={black} alt="coming up" class="img-fluid"/>
                   </div>
                 </div>
   
@@ -27,19 +37,19 @@ class WhyUs extends React.Component{
                 </p>
   
                 <div class="features wow bounceInUp clearfix">
-                  <i class="fa fa-diamond"></i>
+                  <i class="fa fa-diamond" style={diamond}></i>
                   <h4>Corporis dolorem</h4>
                   <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
                 </div>
   
                 <div class="features wow bounceInUp clearfix">
-                  <i class="fa fa-object-group"></i>
+                  <i class="fa fa-object-group" style={fix}></i>
                   <h4>Eum ut aspernatur</h4>
                   <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
                 </div>
   
                 <div class="features wow bounceInUp clearfix">
-                  <i class="fa fa-language"></i>
+                  <i class="fa fa-language" style={lang}></i>
                   <h4>Voluptates dolores</h4>
                   <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
                   </div>
